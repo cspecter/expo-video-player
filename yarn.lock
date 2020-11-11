@@ -2082,10 +2082,9 @@
     sudo-prompt "^9.0.0"
     wcwidth "^1.0.1"
 
-"@react-native-community/netinfo@^5.9.7":
+"@react-native-community/netinfo@cspecter/react-native-netinfo":
   version "5.9.7"
-  resolved "https://registry.yarnpkg.com/@react-native-community/netinfo/-/netinfo-5.9.7.tgz#769c6b306ea6bbaa1c4a3fffdd183d0cfc30ed7e"
-  integrity sha512-NAkkT68oF+M9o6El2xeUqZK7magPjG/tAcEbvCbqyhlh3yElKWnI1e1vpbVvFXzTefy67FwYFWOJqBN6U7Mnkg==
+  resolved "https://codeload.github.com/cspecter/react-native-netinfo/tar.gz/5f7e9c985bfca4d402b48400071f957149529e00"
 
 "@react-native-community/slider@^3.0.3":
   version "3.0.3"
@@ -5176,6 +5175,11 @@ hermes-profile-transformer@^0.0.6:
   integrity sha512-cnN7bQUm65UWOy6cbGcCcZ3rpwW8Q/j4OP5aWRhEry4Z2t2aR1cjrbp0BS+KiBN0smvP1caBgAuxutvyvJILzQ==
   dependencies:
     source-map "^0.7.3"
+
+hoist-non-react-statics@^2.3.1:
+  version "2.5.5"
+  resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-2.5.5.tgz#c5903cf409c0dfd908f388e619d86b9c1174cb47"
+  integrity sha512-rqcy4pJo55FTTLWt+bU8ukscqHeE/e9KWvsOW2b/a3afxQZhwkQdT1rPPCJ0rYXdj4vNcasY8zHTH+jF/qStxw==
 
 hosted-git-info@^2.1.4:
   version "2.8.8"
@@ -8448,6 +8452,14 @@ react-test-renderer@~16.11.0:
     prop-types "^15.6.2"
     react-is "^16.8.6"
     scheduler "^0.17.0"
+
+react-timeout@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-timeout/-/react-timeout-2.0.0.tgz#22c6399969787bfe007b80654401e8e062b0c220"
+  integrity sha512-vh0PRUOhpe9KFXzxpibRsrEdPrQf+jd105wqKcm15ObxE4UbqLQwnS3WIR8tmG8adTJEHvVw7zs9wuC98hsR7Q==
+  dependencies:
+    hoist-non-react-statics "^2.3.1"
+    object-assign "^4.0.1"
 
 react@^16.13.1:
   version "16.13.1"

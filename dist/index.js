@@ -6,6 +6,7 @@ import { FullscreenEnterIcon, FullscreenExitIcon, PauseIcon, PlayIcon, ReplayIco
 import { withDefaultProps } from 'with-default-props';
 import React, { useEffect, useState } from 'react';
 import Slider from '@react-native-community/slider';
+import ReactTimeout from 'react-timeout'
 const SLIDER_COLOR = '#009485';
 const BUFFERING_SHOW_DELAY = 200;
 // UI states
@@ -487,4 +488,4 @@ const VideoPlayer = (props) => {
       </View>
     </TouchableWithoutFeedback>);
 };
-export default withDefaultProps(VideoPlayer, defaultProps);
+export default ReactTimeout(withDefaultProps(VideoPlayer, defaultProps));
